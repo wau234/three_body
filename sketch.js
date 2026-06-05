@@ -12,9 +12,9 @@ function setup() {
   noStroke();
   textSize(40);
 
-  planets.push(new Planet(500, 200, 3, color(255, 0, 0)));
-  planets.push(new Planet(500, 600, 2.3, color(0, 255, 0)));
-  planets.push(new Planet(200, 500, 4, color(0, 0, 255)));
+  planets.push(new Planet(random(200,600), random(200,600), random(1,4), color(255, 0, 0)));
+  planets.push(new Planet(random(200,600), random(200,600), random(1,4), color(0, 255, 0)));
+  planets.push(new Planet(random(200,600), random(200,600), random(1,4), color(0, 0, 255)));
 }
 
 function draw() {
